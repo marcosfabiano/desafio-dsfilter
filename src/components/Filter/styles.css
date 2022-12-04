@@ -1,0 +1,42 @@
+.dsf-filter-container {
+  width: 960px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: var(--dsf-color-bg-tertiary);
+  color: var(--dsc-color-font-primary);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.dsf-filter-container input {
+  width: 200px;
+  height: 40px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid var(--dsf-color-font-border);
+  display: flex;
+  align-items: center;
+}
+
+.dsf-filter-container button {
+  width: 200px;
+  height: 40px;
+  color: var(--dsf-color-font-primary);
+  background-color: var(--dsf-color-font-tertiary);
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 5px;
+}
+
+.dsf-filter-container input:focus {
+  outline: none;
+}
+
+.dsf-filter-container input::placeholder {
+  color: var(--dsf-color-font-placeholder);
+}
